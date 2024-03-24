@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+  <name>strttc_msgs</name>
+  <version>0.0.0</version>
+  <description>Custom messages for strttc</description>
+  <maintainer email="eeyzhou@hnu.edu.cn">Yi Zhou</maintainer>
+  <license>GNU GPL</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <build_depend>message_generation</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  
+  <run_depend>message_runtime</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>rosbag</run_depend>
+  
+</package>
+

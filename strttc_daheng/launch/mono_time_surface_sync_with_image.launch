@@ -1,0 +1,14 @@
+<launch>
+  <node pkg="strttc_daheng" type="strttc_daheng" name="strttc_daheng" output="screen"> 
+    <remap from="camera" to="image_raw" />
+    <rosparam command="load" file="$(find strttc_daheng)/config/parameters.yaml" />
+  </node>
+  
+  <node pkg="dv_ros_capture" type="capture_node" name="capture_node" output="screen">
+    <rosparam command="load" file="$(find dv_ros_capture)/config/settings.yaml" />
+    <remap from="/capture_node/triggers" to="/sync" />
+  </node>
+
+
+
+</launch>

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/kaizhen/TTC_yolov7/stm2ros_wk/src/serial/build/devel/setup.sh

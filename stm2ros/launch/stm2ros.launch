@@ -1,0 +1,10 @@
+<launch>
+ <node name="stm2ros_node" pkg="stm2ros" type="sub_stm2ros" output="screen" >
+ <param name="real_distance" value="1.73" type="double"/>
+ </node>
+<node name="stm2ros_sync_node" pkg="stm2ros" type="pub_sync_stm2ros" output="screen" >
+ <param name="sub_topic_name" value="/sync"/>
+ <param name="ttc_pub_topic_name" value="groundtruth_ttc"/>
+ <param name="ttc_sub_topic_name" value="/g_ttc"/>
+ </node>
+</launch>

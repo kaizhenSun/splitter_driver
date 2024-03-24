@@ -1,0 +1,8 @@
+prefix=/home/kaizhen/TTC_yolov7/stm2ros_wk/src/serial/build/devel
+
+Name: serial
+Description: Description of serial
+Version: 1.2.1
+Cflags: -I/home/kaizhen/TTC_yolov7/stm2ros_wk/src/serial/include
+Libs: -L${prefix}/lib -lserial -lrt -lpthread
+Requires: 

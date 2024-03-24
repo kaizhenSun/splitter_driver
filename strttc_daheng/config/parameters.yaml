@@ -1,0 +1,5 @@
+camera_name: "daheng"
+frame_id: "camera"
+# camera_info_url: "file:///home/nail-agx/TTC_estimation/strttc/src/strttc_daheng/config/aps.yaml"
+camera_info_url: "file:///home/fcwd/small_scale_ws/src/splitter_driver/strttc_daheng/config/aps.yaml"
+exposure_time: 40000.0

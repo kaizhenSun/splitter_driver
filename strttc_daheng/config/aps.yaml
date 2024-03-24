@@ -1,0 +1,24 @@
+image_width: 1440
+image_height: 1080
+camera_name: "daheng"
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [ 1785.7,     0.  ,  690.644 ,
+            0.  ,   1786.8,   583.9184 ,
+            0.     ,    0.     ,    1.     ]
+camera_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [-0.2252, 0.3461, -0.0015, 4.0288e-04, -0.5937]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [ 1.,  0.,  0.,
+          0.,  1.,  0.,
+          0.,  0.,  1.]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0]

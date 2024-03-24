@@ -1,0 +1,7 @@
+<launch>
+	    <node pkg="strttc_daheng" type="strttc_daheng" name="strttc_daheng" output="screen"> 
+                <remap from="camera" to="image_raw" />
+                <rosparam command="load" file="$(find strttc_daheng)/config/parameters.yaml" />
+	    </node>
+
+</launch>
